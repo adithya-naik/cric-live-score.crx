@@ -2,7 +2,7 @@
 
 A lightweight browser extension that provides real-time cricket scores directly in your browser.
 
-![Cricket Live Scores Extension](https://via.placeholder.com/800x400?text=Cricket+Live+Scores+Extension)
+![Cricket Live Scores Extension]([https://via.placeholder.com/800x400?text=Cricket+Live+Scores+Extension](https://cdorg.b-cdn.net/wp-content/uploads/2022/03/Website-Image-1-500x280.webp))
 
 ## Features
 - Live cricket match updates
@@ -43,7 +43,7 @@ Since the extension is not yet published, install it manually in developer mode.
 4. Match details include type, date, teams, scores, status, and venue
 
 ## API Setup
-1. Get a free API key from [Cricket API](https://cricapi.com/)
+1. Get a free API key from [Cricket API](https://cricketdata.org/)
 2. Replace the placeholder key in `popup.js`:
    ```javascript
    const apiKey = "YOUR_API_KEY_HERE";
@@ -76,7 +76,7 @@ cricket-live-scores/
 4. Push and open a Pull Request
 
 ## Acknowledgements
-- [Cricket API](https://cricapi.com/) for match data
+- [Cricket API](https://cricketdata.org/) for match data
 - [Lucide Icons](https://lucide.dev/) for UI icons
 
 ---
