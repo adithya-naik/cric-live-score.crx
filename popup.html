@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Live Scores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Cricket Live Scores</h1>
+            <button id="refresh-btn" title="Refresh scores">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 2v6h6"></path>
+                    <path d="M21 12A9 9 0 0 0 6 5.3L3 8"></path>
+                    <path d="M21 22v-6h-6"></path>
+                    <path d="M3 12a9 9 0 0 0 15 6.7l3-2.7"></path>
+                </svg>
+            </button>
+        </div>
+        
+        <div id="scores">
+            <div class="loading">Loading latest matches...</div>
+        </div>
+        
+        <div class="footer">
+            <p>Data provided by Cricket API</p>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

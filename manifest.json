@@ -1,0 +1,14 @@
+
+{
+  "manifest_version": 3,
+  "name": "IPL Live Scores",
+  "version": "1.0",
+  "author" : "Jatoth Adithya Naik",
+  "description": "Shows live IPL scores",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.jpg",
+    "default_title": "IPL Live Scores"
+  }
+}
